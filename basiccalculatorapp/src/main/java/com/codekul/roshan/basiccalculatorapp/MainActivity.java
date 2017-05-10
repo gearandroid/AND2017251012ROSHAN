@@ -4,10 +4,12 @@ package com.codekul.roshan.basiccalculatorapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.Interpolator;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -94,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Integer num1=Integer.parseInt(txtOne.getText().toString());
                 Integer num2=Integer.parseInt(txtTwo.getText().toString());
-                String result=Integer.toString(num1/num2);
+                String result=Double.toString(num1/num2);
                 txtResult.setText(result);
             }
         });

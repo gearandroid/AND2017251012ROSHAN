@@ -6,7 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/aplicationtest/aplicationtest.iml" filepath="$PROJECT_DIR$/aplicationtest/aplicationtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basiccalculatorapp/basiccalculatorapp.iml" filepath="$PROJECT_DIR$/basiccalculatorapp/basiccalculatorapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expressioncalculator/expressioncalculator.iml" filepath="$PROJECT_DIR$/expressioncalculator/expressioncalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/libtest/libtest.iml" filepath="$PROJECT_DIR$/libtest/libtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uiviaxml/uiviaxml.iml" filepath="$PROJECT_DIR$/uiviaxml/uiviaxml.iml" />
     </modules>
   </component>
 </project>
