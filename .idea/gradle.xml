@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/expressioncalculator" />
             <option value="$PROJECT_DIR$/libtest" />
             <option value="$PROJECT_DIR$/uiviaxml" />
+            <option value="$PROJECT_DIR$/viewmeasurementunitsdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

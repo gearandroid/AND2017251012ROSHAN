@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/expressioncalculator/expressioncalculator.iml" filepath="$PROJECT_DIR$/expressioncalculator/expressioncalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/libtest/libtest.iml" filepath="$PROJECT_DIR$/libtest/libtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/uiviaxml/uiviaxml.iml" filepath="$PROJECT_DIR$/uiviaxml/uiviaxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewmeasurementunitsdemo/viewmeasurementunitsdemo.iml" filepath="$PROJECT_DIR$/viewmeasurementunitsdemo/viewmeasurementunitsdemo.iml" />
     </modules>
   </component>
 </project>

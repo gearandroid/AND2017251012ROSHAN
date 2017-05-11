@@ -1,1 +1,1 @@
-include ':app', ':libtest', ':aplicationtest', ':basiccalculatorapp', ':expressioncalculator', ':uiviaxml', ':basiccalculatorviaxml'
+include ':app', ':libtest', ':aplicationtest', ':basiccalculatorapp', ':expressioncalculator', ':uiviaxml', ':basiccalculatorviaxml', ':viewmeasurementunitsdemo'
