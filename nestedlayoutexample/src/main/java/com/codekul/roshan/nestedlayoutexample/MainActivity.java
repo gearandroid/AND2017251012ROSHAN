@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         EditText txtText = (EditText)findViewById(R.id.txtTextBT);
-        //txtText.setEnabled(false);
+        txtText.setEnabled(false);
         txtText.setTextColor(Color.BLACK);
 
         EditText txtTextWF=(EditText) findViewById(R.id.txtTextWF);
