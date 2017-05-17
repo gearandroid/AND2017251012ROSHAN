@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //1
-                //created Intent-parameters as source this and Target that is next Activity to be opened
+                //create Intent-parameters as source this and Target that is next Activity to be opened
                 Intent intent=new Intent(MainActivity.this,NextActivity.class);
 
                 //2
@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
                 //create bundle object and extract response/result by data.getExtras();
                 Bundle bundleback = data.getExtras();
                 String result=bundleback.getString(NextActivity.KEY_MY_RESULT);
+
+                ((EditText)findViewById(R.id.edtName)).setText(result);
             }
         }
 

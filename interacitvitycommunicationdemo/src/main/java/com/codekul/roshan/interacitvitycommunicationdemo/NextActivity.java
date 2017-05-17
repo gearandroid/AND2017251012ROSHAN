@@ -38,13 +38,13 @@ public class NextActivity extends AppCompatActivity {
         if(bundle != null) {
             //3
             //Access keys and store it in variable:
-            String myName = bundle.getString(MainActivity.KEY_MY_NAME);
+            String mysName = bundle.getString(MainActivity.KEY_MY_NAME);
             Boolean bool = bundle.getBoolean(MainActivity.KEY_BOOL);
 
             //5
             //set text to edittext of this activity: we are setting name by its key and current time
             //observe the System.currentTimeMillis()
-            ((EditText)findViewById(R.id.edtResult)).setText(myName + (new SimpleDateFormat("dd MM yyyy").format(new Date())));
+            ((EditText)findViewById(R.id.edtResult)).setText(mysName + (new SimpleDateFormat("dd MM yyyy").format(new Date())));
         }
 
         findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {

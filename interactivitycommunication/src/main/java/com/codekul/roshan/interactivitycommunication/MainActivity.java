@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,NextActivity.class);
         intent.putExtras(bundle);
 
-        startActivity(intent);
+        //startActivity(intent);
         //If we want to just open a new UI we use this, but if we want some response(i.e result)
         // from the UI to be opened, we use the following i,e. with Result
 
