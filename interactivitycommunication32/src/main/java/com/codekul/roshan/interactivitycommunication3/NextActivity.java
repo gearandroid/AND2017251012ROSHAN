@@ -23,7 +23,7 @@ public class NextActivity extends AppCompatActivity {
 
             String strNext=bundle.getString(MainActivity.MY_KEY);
 
-            ((EditText)findViewById(R.id.edtBack)).setText(strNext+((EditText)findViewById(R.id.edtMain)).getText());
+            ((EditText)findViewById(R.id.edtBack)).setText(strNext);
 
         //}
 
