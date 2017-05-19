@@ -47,11 +47,13 @@ public class MainActivity extends AppCompatActivity {
                     ((ImageView) findViewById(R.id.imgMainView)).setImageResource(R.drawable.hahaha);
                 }
                 break;
+
             case 2222:
                 if (resultCode == RESULT_OK && (data != null))
                 {
                     ((ImageView) findViewById(R.id.imgMainView)).setImageResource(R.drawable.liar);
                 }
+                break;
         }
     }
 }
