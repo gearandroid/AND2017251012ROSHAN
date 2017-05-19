@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.codekul.roshan.interactivitycommunication4.NextActivity">
+    tools:context="com.codekul.roshan.interactivitycommunication4.NextActivity"
+    android:background="#9ccc65">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:text="MATCH FOUND"
+        android:paddingLeft="80dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#558b2f"
+        android:textSize="17sp"
+        android:textColor="#263238"
+        android:paddingStart="117sp"
+        />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:text="GENERATE MATCHING PHOTO"
+        android:textColor="#263238"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:background="#66bb6a"/>
+
+    <ImageView
+        android:id="@+id/imgGenerate"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"/>
+<LinearLayout
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="60dp"
+        android:text="I ACCEPT"
+        android:textColor="#263238"
+        android:background="#66bb6a"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnDeny"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="60dp"
+        android:text="I DENY"
+        android:textColor="#263238"
+        android:background="#66bb6a"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgPublished"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="140dp"
+        />
+
+</LinearLayout>

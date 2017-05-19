@@ -19,13 +19,13 @@ public class NextActivity extends AppCompatActivity {
 
         Bundle bundle=responsibleIntent.getExtras();
 
-        //if(bundle != null){
+        if(bundle != null){
 
             String strNext=bundle.getString(MainActivity.MY_KEY);
 
             ((EditText)findViewById(R.id.edtBack)).setText(strNext);
 
-        //}
+        }
 
         findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
             @Override
