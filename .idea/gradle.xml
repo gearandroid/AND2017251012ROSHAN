@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/basiccalculatorapp" />
             <option value="$PROJECT_DIR$/basiccalculatorviaxml" />
+            <option value="$PROJECT_DIR$/compoundview3" />
             <option value="$PROJECT_DIR$/compoundviewdemo1" />
             <option value="$PROJECT_DIR$/compoundviewdemo2" />
             <option value="$PROJECT_DIR$/customviewdemo" />
@@ -29,6 +30,7 @@
             <option value="$PROJECT_DIR$/relatedlayoutdemo" />
             <option value="$PROJECT_DIR$/uiviaxml" />
             <option value="$PROJECT_DIR$/viewmeasurementunitsdemo" />
+            <option value="$PROJECT_DIR$/whatsappscreen" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

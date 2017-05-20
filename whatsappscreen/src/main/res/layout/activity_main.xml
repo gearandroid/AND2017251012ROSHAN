@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codekul.roshan.whatsappscreen.MainActivity"
+    android:background="@drawable/whatsappbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:background="#004d40"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_signal_wifi_4_bar_black_24dp"
+                android:tint="#e0f7fa"
+                android:layout_marginLeft="240dp"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_signal_cellular_4_bar_black_24dp"
+                android:tint="#e0f7fa"
+                android:layout_marginLeft="27dp"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_signal_cellular_null_black_24dp"
+                android:tint="#e0f7fa"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_battery_60_black_24dp"
+                android:tint="#e0f7fa"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="7dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"
+            android:background="#00695c"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:tint="#e0f7fa"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#00695c"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="9dp"
+        android:padding="5dip"
+        android:background="@drawable/roundedgetextbox"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_tag_faces_black_24dp"
+            android:tint="#616161"
+            android:layout_marginLeft="10dp"
+            android:padding="3dp"/>
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/roundedgetextbox"/>
+
+        <ImageView
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_photo_camera_black_24dp"
+        android:tint="#616161"
+        android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_mic_black_24dp"
+        android:tint="#fafafa"/>
+
+
+</RelativeLayout>

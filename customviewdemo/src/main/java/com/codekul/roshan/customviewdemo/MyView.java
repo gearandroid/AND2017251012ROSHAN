@@ -41,9 +41,6 @@ public class MyView extends AppCompatEditText {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-
-
-
         //canvas.drawCircle(200,200,100,paint);
 
         for (int i = 1; i <= getHeight(); i += 70) {
