@@ -6,13 +6,13 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.codekul.roshan.whatsappscreen.MainActivity"
-    android:background="@drawable/whatsappbackground">
+    android:background="@drawable/bkgrnd">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:orientation="vertical"
-        android:weightSum="1">
+        android:weightSum=".7">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,21 +25,24 @@
                 android:layout_height="40dp"
                 android:src="@drawable/ic_signal_wifi_4_bar_black_24dp"
                 android:tint="#e0f7fa"
-                android:layout_marginLeft="240dp"/>
+                android:layout_marginLeft="240dp"
+                android:layout_gravity="center"/>
 
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="40dp"
                 android:src="@drawable/ic_signal_cellular_4_bar_black_24dp"
                 android:tint="#e0f7fa"
-                android:layout_marginLeft="27dp"/>
+                android:layout_marginLeft="27dp"
+                android:layout_gravity="center"/>
 
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="40dp"
                 android:src="@drawable/ic_signal_cellular_null_black_24dp"
                 android:tint="#e0f7fa"
-                android:layout_marginLeft="3dp"/>
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="center"/>
 
             <ImageView
                 android:layout_width="20dp"
@@ -47,33 +50,60 @@
                 android:src="@drawable/ic_battery_60_black_24dp"
                 android:tint="#e0f7fa"
                 android:layout_marginLeft="3dp"
-                android:layout_marginTop="7dp"/>
+                android:layout_gravity="center"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight=".7"
+            android:layout_weight=".4"
             android:background="#00695c"
             >
 
             <ImageView
                 android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_height="match_parent"
                 android:src="@drawable/ic_arrow_back_black_24dp"
                 android:tint="#e0f7fa"
-                android:layout_marginTop="10dp"
-                android:backgroundTint="#00695c"/>
+                android:backgroundTint="#00695c"
+                android:padding="3dp"
+                android:layout_marginBottom="9dp"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_local_phone_black_24dp"
+                android:tint="#fafafa"
+                android:layout_marginLeft="160dp"
+                android:padding="12dp"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_attach_file_black_24dp"
+                android:padding="10dp"
+                android:tint="#fafafa"
+                android:layout_marginLeft="5dp"
+                />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_more_vert_black_24dp"
+                android:tint="#fafafa"
+                android:layout_marginLeft="5dp"
+                android:padding="7dp"
+                />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="290dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="435dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="467dp"
         android:layout_marginLeft="9dp"
         android:padding="5dip"
         android:background="@drawable/roundedgetextbox"
@@ -81,11 +111,11 @@
 
         <ImageView
             android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_height="match_parent"
             android:src="@drawable/ic_tag_faces_black_24dp"
             android:tint="#616161"
-            android:layout_marginLeft="10dp"
-            android:padding="3dp"/>
+            android:padding="2dp"
+            />
 
         <EditText
             android:layout_width="160dp"
@@ -97,18 +127,21 @@
         android:layout_height="70dp"
         android:src="@drawable/ic_photo_camera_black_24dp"
         android:tint="#616161"
-        android:layout_marginLeft="10dp"
-            android:layout_gravity="center_vertical"/>
+        android:layout_marginLeft="25dp"
+        android:layout_gravity="center_vertical"
+            android:padding="10dp"/>
 
     </LinearLayout>
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="70dp"
-        android:layout_marginTop="435dp"
-        android:layout_marginLeft="300dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="307dp"
         android:src="@drawable/ic_mic_black_24dp"
-        android:tint="#fafafa"/>
+        android:tint="#00695c"
+        android:padding="10dp"
+        />
 
 
 </RelativeLayout>
