@@ -25,6 +25,7 @@
             <option value="$PROJECT_DIR$/interactivitycommunication3" />
             <option value="$PROJECT_DIR$/interactivitycommunication32" />
             <option value="$PROJECT_DIR$/interactivitycommunication4" />
+            <option value="$PROJECT_DIR$/interactivitycommunication5" />
             <option value="$PROJECT_DIR$/libtest" />
             <option value="$PROJECT_DIR$/nestedlayoutexample" />
             <option value="$PROJECT_DIR$/nestedlayoutexample2" />
@@ -34,6 +35,7 @@
             <option value="$PROJECT_DIR$/viewmeasurementunitsdemo" />
             <option value="$PROJECT_DIR$/whatsappbyconstraintview" />
             <option value="$PROJECT_DIR$/whatsappscreen" />
+            <option value="$PROJECT_DIR$/whatsappscreenbyconstraintview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
