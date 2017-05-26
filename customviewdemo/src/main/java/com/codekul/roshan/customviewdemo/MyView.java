@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
  * Created by rtb on 19/5/17.
  */
 
-//extend (typecasted AppCompat) children control classes..
+//extend (typecasted AppCompat) children widget's classes..
 public class MyView extends AppCompatEditText {
 
     private Paint paint; //keep one Paint class reference always
@@ -21,13 +21,13 @@ public class MyView extends AppCompatEditText {
 
     //add constructors
     public MyView(Context context) {
-        super(context); //generated java code
+        super(context); //generates java code
         initPaint();
 
     }
 
     public MyView(Context context, AttributeSet attrs) {
-        super(context, attrs); //generated java code
+        super(context, attrs); //generates java code
         initPaint();
     }
 

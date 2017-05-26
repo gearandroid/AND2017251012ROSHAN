@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/compoundview3/compoundview3.iml" filepath="$PROJECT_DIR$/compoundview3/compoundview3.iml" />
       <module fileurl="file://$PROJECT_DIR$/compoundviewdemo1/compoundviewdemo1.iml" filepath="$PROJECT_DIR$/compoundviewdemo1/compoundviewdemo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/compoundviewdemo2/compoundviewdemo2.iml" filepath="$PROJECT_DIR$/compoundviewdemo2/compoundviewdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customview4/customview4.iml" filepath="$PROJECT_DIR$/customview4/customview4.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviewdemo/customviewdemo.iml" filepath="$PROJECT_DIR$/customviewdemo/customviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviewexample/customviewexample.iml" filepath="$PROJECT_DIR$/customviewexample/customviewexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviewexample2/customviewexample2.iml" filepath="$PROJECT_DIR$/customviewexample2/customviewexample2.iml" />
@@ -21,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/interactivitycommunication32/interactivitycommunication32.iml" filepath="$PROJECT_DIR$/interactivitycommunication32/interactivitycommunication32.iml" />
       <module fileurl="file://$PROJECT_DIR$/interactivitycommunication4/interactivitycommunication4.iml" filepath="$PROJECT_DIR$/interactivitycommunication4/interactivitycommunication4.iml" />
       <module fileurl="file://$PROJECT_DIR$/interactivitycommunication5/interactivitycommunication5.iml" filepath="$PROJECT_DIR$/interactivitycommunication5/interactivitycommunication5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interactivitycommunication6/interactivitycommunication6.iml" filepath="$PROJECT_DIR$/interactivitycommunication6/interactivitycommunication6.iml" />
       <module fileurl="file://$PROJECT_DIR$/libtest/libtest.iml" filepath="$PROJECT_DIR$/libtest/libtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/nestedlayoutexample/nestedlayoutexample.iml" filepath="$PROJECT_DIR$/nestedlayoutexample/nestedlayoutexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/nestedlayoutexample2/nestedlayoutexample2.iml" filepath="$PROJECT_DIR$/nestedlayoutexample2/nestedlayoutexample2.iml" />
