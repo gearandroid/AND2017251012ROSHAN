@@ -9,9 +9,9 @@
     android:orientation="vertical">
 
     <com.codekul.roshan.customview4.MyCustomView
+        android:id="@+id/myCustomView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>

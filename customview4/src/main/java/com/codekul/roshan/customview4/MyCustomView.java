@@ -39,6 +39,17 @@ public class MyCustomView extends AppCompatEditText {
         super.onDraw(canvas);
         paint.setColor(Color.BLUE);
         canvas.drawRect(100,100,300,300,paint);
+
+        paint.setColor(Color.YELLOW);
+        canvas.drawCircle(400,400,50,paint);
+
+        paint.setColor(Color.BLACK);
+        canvas.drawLine(400,400,600,600,paint);
+
+        for(int i=600;i>=200;i-=20){
+            canvas.drawLine(400,400,i,200,paint);
+        }
     }
+
 
 }
