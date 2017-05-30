@@ -10,19 +10,21 @@
 
     <FrameLayout
         android:id="@+id/frameTwo"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="140dp"
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
 
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="140dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -31,7 +33,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/frameOne">
+        android:id="@+id/frameOne"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
 
     </FrameLayout>
 
