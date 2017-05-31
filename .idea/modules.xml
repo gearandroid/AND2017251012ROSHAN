@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/FirstApp.iml" filepath="$PROJECT_DIR$/FirstApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" filepath="$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/activitylifecycle2/activitylifecycle2.iml" filepath="$PROJECT_DIR$/activitylifecycle2/activitylifecycle2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitystate/activitystate.iml" filepath="$PROJECT_DIR$/activitystate/activitystate.iml" />
       <module fileurl="file://$PROJECT_DIR$/aplicationtest/aplicationtest.iml" filepath="$PROJECT_DIR$/aplicationtest/aplicationtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basiccalculatorapp/basiccalculatorapp.iml" filepath="$PROJECT_DIR$/basiccalculatorapp/basiccalculatorapp.iml" />
