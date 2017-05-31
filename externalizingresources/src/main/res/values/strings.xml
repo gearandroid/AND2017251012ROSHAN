@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">ExternalizingResources</string>
+
+    <string-array name="courses">
+        <item>Android </item>
+        <item>Java</item>
+        <item>C</item>
+        <item>C++</item>
+    </string-array>
+
+</resources>
