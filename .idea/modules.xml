@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/expressioncalculator/expressioncalculator.iml" filepath="$PROJECT_DIR$/expressioncalculator/expressioncalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/externalizingresources/externalizingresources.iml" filepath="$PROJECT_DIR$/externalizingresources/externalizingresources.iml" />
       <module fileurl="file://$PROJECT_DIR$/externalizingresourses/externalizingresourses.iml" filepath="$PROJECT_DIR$/externalizingresourses/externalizingresourses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentation/fragmentation.iml" filepath="$PROJECT_DIR$/fragmentation/fragmentation.iml" />
       <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" filepath="$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlingruntimechangesv1/handlingruntimechangesv1.iml" filepath="$PROJECT_DIR$/handlingruntimechangesv1/handlingruntimechangesv1.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlingruntimeeventv3/handlingruntimeeventv3.iml" filepath="$PROJECT_DIR$/handlingruntimeeventv3/handlingruntimeeventv3.iml" />
