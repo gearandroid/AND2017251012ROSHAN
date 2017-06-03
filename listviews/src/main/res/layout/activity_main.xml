@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.codekul.roshan.listviews.MainActivity"
+    android:background="#bcaaa4">
+
+    <ListView
+        android:id="@+id/lisList"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#a1887f"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="8dp"
+        android:onClick="OnAdd"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="@+id/edtContact"
+        app:layout_constraintTop_toTopOf="@+id/edtContact"
+        app:layout_constraintLeft_toRightOf="@+id/edtContact"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintVertical_bias="0.615"
+        android:background="#6d4c41"
+        android:textColor="#fafafa"/>
+
+    <EditText
+        android:id="@+id/edtContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Contact"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lisList" />
+</android.support.constraint.ConstraintLayout>

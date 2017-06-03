@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#81d4fa">
+
+
+    <ImageView
+        android:id="@+id/imgPic"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight=".3"
+        app:srcCompat="@drawable/friday" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight=".7"
+        android:background="#039be5"
+        android:gravity="center|start"/>
+
+</LinearLayout>
