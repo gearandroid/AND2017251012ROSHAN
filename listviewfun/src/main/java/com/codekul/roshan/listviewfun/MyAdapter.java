@@ -5,6 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -43,6 +46,11 @@ public class MyAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        return null;
+
+        View rootView = inflater.inflate(R.layout.my_view,parent,false);
+        ((TextView)rootView.findViewById(R.id.txtViewText)).setText(dataset.get(position).text);
+        ((ImageView)rootView.findViewById(R.id.imgImageView)).setImageResource(dataset.get(position).imgId);
+
+        return rootView;
     }
 }
