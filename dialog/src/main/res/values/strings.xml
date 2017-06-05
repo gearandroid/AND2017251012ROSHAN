@@ -2,4 +2,5 @@
     <string name="app_name">Dialog</string>
     <string name="Internet">No Internet</string>
     <string name="internet">INTERNET</string>
+    <string name="TimePicker">Time</string>
 </resources>
