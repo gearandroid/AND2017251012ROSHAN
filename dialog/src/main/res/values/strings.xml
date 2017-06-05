@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dialog</string>
+    <string name="Internet">No Internet</string>
+    <string name="internet">INTERNET</string>
+</resources>

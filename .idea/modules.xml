@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/customviewexample/customviewexample.iml" filepath="$PROJECT_DIR$/customviewexample/customviewexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviewexample2/customviewexample2.iml" filepath="$PROJECT_DIR$/customviewexample2/customviewexample2.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviewsdemo1/customviewsdemo1.iml" filepath="$PROJECT_DIR$/customviewsdemo1/customviewsdemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/expressioncalculator/expressioncalculator.iml" filepath="$PROJECT_DIR$/expressioncalculator/expressioncalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/externalizingresources/externalizingresources.iml" filepath="$PROJECT_DIR$/externalizingresources/externalizingresources.iml" />
       <module fileurl="file://$PROJECT_DIR$/externalizingresourses/externalizingresourses.iml" filepath="$PROJECT_DIR$/externalizingresourses/externalizingresourses.iml" />
@@ -47,6 +48,7 @@
       <module fileurl="file://$PROJECT_DIR$/nestedlayoutexample2/nestedlayoutexample2.iml" filepath="$PROJECT_DIR$/nestedlayoutexample2/nestedlayoutexample2.iml" />
       <module fileurl="file://$PROJECT_DIR$/nestedlayoutsdemo/nestedlayoutsdemo.iml" filepath="$PROJECT_DIR$/nestedlayoutsdemo/nestedlayoutsdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/relatedlayoutdemo/relatedlayoutdemo.iml" filepath="$PROJECT_DIR$/relatedlayoutdemo/relatedlayoutdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
       <module fileurl="file://$PROJECT_DIR$/uiviaxml/uiviaxml.iml" filepath="$PROJECT_DIR$/uiviaxml/uiviaxml.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewanimation1/viewanimation1.iml" filepath="$PROJECT_DIR$/viewanimation1/viewanimation1.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewmeasurementunitsdemo/viewmeasurementunitsdemo.iml" filepath="$PROJECT_DIR$/viewmeasurementunitsdemo/viewmeasurementunitsdemo.iml" />

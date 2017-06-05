@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/customviewexample" />
             <option value="$PROJECT_DIR$/customviewexample2" />
             <option value="$PROJECT_DIR$/customviewsdemo1" />
+            <option value="$PROJECT_DIR$/dialog" />
             <option value="$PROJECT_DIR$/expressioncalculator" />
             <option value="$PROJECT_DIR$/externalizingresources" />
             <option value="$PROJECT_DIR$/externalizingresourses" />
@@ -51,6 +52,7 @@
             <option value="$PROJECT_DIR$/nestedlayoutexample2" />
             <option value="$PROJECT_DIR$/nestedlayoutsdemo" />
             <option value="$PROJECT_DIR$/relatedlayoutdemo" />
+            <option value="$PROJECT_DIR$/toast" />
             <option value="$PROJECT_DIR$/uiviaxml" />
             <option value="$PROJECT_DIR$/viewanimation1" />
             <option value="$PROJECT_DIR$/viewmeasurementunitsdemo" />
