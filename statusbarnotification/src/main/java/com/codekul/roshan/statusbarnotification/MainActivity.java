@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         builder.setDefaults(Notification.DEFAULT_ALL);
         builder.setOngoing(true);
+
+        //true: Once executed completely,if back is clicked,no status bar will be present
         builder.setAutoCancel(true);
 
         //*** setting the pendingintent here
@@ -43,6 +45,5 @@ public class MainActivity extends AppCompatActivity {
         Notification notification =builder.build();
 
         manager.notify(1234,notification);
-
     }
 }

@@ -2,15 +2,20 @@ package com.codekul.roshan.dialog;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.DatePicker;
 import android.widget.TimePicker;
 import android.widget.Toast;
+
+import java.util.zip.Inflater;
 
 /**
  * Created by rtb on 5/6/17.
@@ -21,6 +26,8 @@ public class AppDialog extends DialogFragment {
     public static final String TAG_NO_INTERNET = "noInternet";
     public static final String TAG_CALENDER = "calender" ;
     public static final String TAG_TIME = "time";
+    public static final String TAG_PROGRESS = "progress";
+    public static final String TAG_CUSTOM = "custom";
 
     @NonNull
     @Override
@@ -33,6 +40,10 @@ public class AppDialog extends DialogFragment {
             dialog=calender();
         }else if(getTag().equals(TAG_TIME)){
             dialog=timePicker();
+        }else if (getTag().equals(TAG_PROGRESS)){
+            dialog = progress();
+        }else{
+            dialog=custom();
         }
 
         return dialog;
@@ -82,6 +93,32 @@ public class AppDialog extends DialogFragment {
         return dialog;
     }
 
+    private Dialog progress() {
+        ProgressDialog dialog = new ProgressDialog(getActivity());
+
+        dialog.setIcon(R.mipmap.ic_launcher_round);
+        dialog.setTitle("Progress Title");
+        dialog.setMessage("Ongoing Progress");
+        dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        dialog.setMax(100);
+        dialog.setProgress(100);
+
+        return dialog;
+    }
+
+    private Dialog custom() {
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        AlertDialog dialog = builder.create();
+
+        LayoutInflater inflater=LayoutInflater.from(getActivity());
+        View view = inflater.inflate(R.layout.my_alert_view,null,false);
+
+        dialog.setView(view);
+
+
+        return dialog;
+    }
     public void mt(String msg) {
         Toast.makeText(getActivity(),msg,Toast.LENGTH_LONG).show();
     }

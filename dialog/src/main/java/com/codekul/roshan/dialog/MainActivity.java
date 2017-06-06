@@ -24,10 +24,16 @@ public class MainActivity extends AppCompatActivity {
     public void onTime(View view) {
         dialog(AppDialog.TAG_TIME);
     }
+    public void onProgress(View view) {
+        dialog(AppDialog.TAG_PROGRESS);
+    }
+
+    public void onCustom(View view) {
+        dialog(AppDialog.TAG_CUSTOM);
+    }
     private void dialog(String tag) {
         AppDialog dialog=new AppDialog();
         dialog.show(getSupportFragmentManager(),tag);
     }
-
 
 }
