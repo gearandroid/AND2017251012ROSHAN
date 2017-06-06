@@ -50,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/relatedlayoutdemo/relatedlayoutdemo.iml" filepath="$PROJECT_DIR$/relatedlayoutdemo/relatedlayoutdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" filepath="$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uithreadviahandler/uithreadviahandler.iml" filepath="$PROJECT_DIR$/uithreadviahandler/uithreadviahandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/uiviaxml/uiviaxml.iml" filepath="$PROJECT_DIR$/uiviaxml/uiviaxml.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewanimation1/viewanimation1.iml" filepath="$PROJECT_DIR$/viewanimation1/viewanimation1.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewmeasurementunitsdemo/viewmeasurementunitsdemo.iml" filepath="$PROJECT_DIR$/viewmeasurementunitsdemo/viewmeasurementunitsdemo.iml" />
