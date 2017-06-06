@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StatusBarNotification</string>
+    <string name="OnClickNotify">NOTIFY</string>
+</resources>
