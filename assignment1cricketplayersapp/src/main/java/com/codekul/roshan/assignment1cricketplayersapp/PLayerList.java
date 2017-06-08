@@ -56,7 +56,7 @@ public class PLayerList extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
+        //Casting
         ((MyAdapter)((ListView)findViewById(R.id.lstListPlayer)).getAdapter()).notifyDataSetChanged();
     }
 }
