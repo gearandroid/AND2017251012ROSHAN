@@ -22,11 +22,11 @@ public class PLayerList extends AppCompatActivity {
 
         //List<MyItem> dataset = new ArrayList<>();
 
-        MyListDatabase.myDataset.add(new MyItem(R.drawable.cricketlogo,"Sachin","41"," "));
-        MyListDatabase.myDataset.add(new MyItem(R.drawable.cricketlogo,"M S Dhoni","40"," "));
-        MyListDatabase.myDataset.add(new MyItem(R.drawable.cricketlogo,"Yuvraj Singh","38"," "));
-        MyListDatabase.myDataset.add(new MyItem(R.drawable.cricketlogo,"R Ashwin ","33"," "));
-        MyListDatabase.myDataset.add(new MyItem(R.drawable.cricketlogo,"R Dhawan","28"," "));
+        MyListDatabase.myDataset.add(new MyItem(R.drawable.clogo,"Sachin","41"," "));
+        MyListDatabase.myDataset.add(new MyItem(R.drawable.clogo,"M S Dhoni","40"," "));
+        MyListDatabase.myDataset.add(new MyItem(R.drawable.clogo,"Yuvraj Singh","38"," "));
+        MyListDatabase.myDataset.add(new MyItem(R.drawable.clogo,"R Ashwin ","33"," "));
+        MyListDatabase.myDataset.add(new MyItem(R.drawable.clogo,"R Dhawan","28"," "));
 
         final MyAdapter myAdapter = new MyAdapter(this,MyListDatabase.myDataset);
         ((ListView)findViewById(R.id.lstListPlayer)).setAdapter(myAdapter);

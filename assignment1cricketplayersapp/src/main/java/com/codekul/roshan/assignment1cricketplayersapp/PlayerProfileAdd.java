@@ -18,6 +18,6 @@ public class PlayerProfileAdd extends AppCompatActivity {
         String pName = ((EditText)findViewById(R.id.edtEnterName)).getText().toString();
         String pAge = ((EditText)findViewById(R.id.edtEnterAge)).getText().toString();
 
-        MyListDatabase.myDataset.add(new MyItem(R.drawable.cricketlogo,pName,pAge,"Info of Player"));
+        MyListDatabase.myDataset.add(new MyItem(R.drawable.clogo,pName,pAge,"Info of Player"));
     }
 }

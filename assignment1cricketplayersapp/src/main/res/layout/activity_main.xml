@@ -7,7 +7,7 @@
     tools:context="com.codekul.roshan.assignment1cricketplayersapp.MainActivity"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp"
-    android:background="@drawable/cricketlogo">
+    android:background="#4fc3f7">
 
     <TextView
         android:id="@+id/textView"
@@ -26,7 +26,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="39dp"
-        android:layout_marginRight="39dp" />
+        android:layout_marginRight="39dp"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <EditText
         android:id="@+id/edtUsername"
