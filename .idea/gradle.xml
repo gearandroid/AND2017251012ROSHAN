@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/activitystate" />
             <option value="$PROJECT_DIR$/aplicationtest" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/assignment1cricketplayersapp" />
             <option value="$PROJECT_DIR$/basiccalculatorapp" />
             <option value="$PROJECT_DIR$/basiccalculatorviaxml" />
             <option value="$PROJECT_DIR$/compoundview3" />
@@ -54,6 +55,7 @@
             <option value="$PROJECT_DIR$/relatedlayoutdemo" />
             <option value="$PROJECT_DIR$/statusbarnotification" />
             <option value="$PROJECT_DIR$/toast" />
+            <option value="$PROJECT_DIR$/uithreadviaasynctask" />
             <option value="$PROJECT_DIR$/uithreadviahandler" />
             <option value="$PROJECT_DIR$/uiviaxml" />
             <option value="$PROJECT_DIR$/viewanimation1" />
