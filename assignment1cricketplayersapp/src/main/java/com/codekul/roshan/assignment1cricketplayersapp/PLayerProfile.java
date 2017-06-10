@@ -22,13 +22,9 @@ public class PLayerProfile extends AppCompatActivity {
 
              String currentName = bundle.getString(PLayerList.P_NAME);
              String currentAge = bundle.getString(PLayerList.P_AGE);
-            if(currentName.equals(" ")) {
 
-                findViewById(R.id.btnAddNewPlayer).setEnabled(false);
-            }
-
-           // ((TextView) findViewById(R.id.txtPlayerName)).setText(currentName);
-            //((TextView)findViewById(R.id.txtplrProfAge)).setText(currentAge);
+            ((TextView) findViewById(R.id.txtplrProfName)).setText(currentName);
+            ((TextView)findViewById(R.id.txtplrProfAge)).setText(currentAge);
 
         }
 
