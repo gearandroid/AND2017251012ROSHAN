@@ -1,0 +1,19 @@
+<FrameLayout
+    android:id="@+id/fragBottom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codekul.roshan.fragmentation4.FragBottom">
+
+
+    <Button
+        android:id="@+id/btnBottom"
+        android:layout_width="206dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:onClick="onChangeClick"
+        android:text="CHANGE"
+        android:textSize="30sp" />
+
+</FrameLayout>

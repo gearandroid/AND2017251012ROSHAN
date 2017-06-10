@@ -1,0 +1,17 @@
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codekul.roshan.fragmentation4.FragContainer"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/img_Container"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@android:drawable/alert_dark_frame"
+        android:layout_gravity="center"/>
+</FrameLayout>

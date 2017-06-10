@@ -1,0 +1,17 @@
+<FrameLayout
+    android:id="@+id/fragTop"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codekul.roshan.fragmentation4.Frag_Top">
+
+    <Button
+        android:id="@+id/btnTop"
+        android:layout_width="189dp"
+        android:layout_height="106dp"
+        android:layout_gravity="center"
+        android:onClick="onChangeTop"
+        android:text="Change"
+        android:textSize="30sp" />
+</FrameLayout>
