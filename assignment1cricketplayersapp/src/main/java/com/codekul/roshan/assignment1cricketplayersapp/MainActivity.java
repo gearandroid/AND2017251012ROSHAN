@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         if(uname.equals("1") && password.equals("1")){
             startActivity(new Intent(this,PLayerList.class));
         }else {
-            ((TextView)findViewById(R.id.txtMessage)).setText("Wrong Credentials..PLease Retry..!!");
+            ((TextView)findViewById(R.id.txtMessage)).setText("Wrong Credentials..Retry..!!");
         }
     }
 }

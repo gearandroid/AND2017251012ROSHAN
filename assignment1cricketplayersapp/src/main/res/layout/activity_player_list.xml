@@ -15,5 +15,5 @@
         android:id="@+id/lstListPlayer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/indicricket"/>
+        android:background="@drawable/indicricket" />
 </LinearLayout>

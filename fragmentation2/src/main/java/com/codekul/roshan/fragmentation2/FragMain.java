@@ -39,8 +39,8 @@ public class FragMain extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_frag_main, container, false);
 
         Bundle bundlelocal = getArguments();
-        bundlelocal.getInt(KEY_IMG);
-
+        //bundlelocal.getInt(KEY_IMG);
+        //above bundle we are directly setting in the below oneline code;
         ((ImageView)rootView.findViewById(R.id.imgMain)).setImageResource(bundlelocal.getInt(KEY_IMG));
         return rootView;
     }

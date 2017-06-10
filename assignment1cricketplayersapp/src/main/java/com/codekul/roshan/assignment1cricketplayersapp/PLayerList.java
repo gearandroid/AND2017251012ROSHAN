@@ -3,9 +3,11 @@ package com.codekul.roshan.assignment1cricketplayersapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.TextureView;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,17 +39,18 @@ public class PLayerList extends AppCompatActivity {
 
                 MyItem clickedItem = (MyItem) myAdapter.getItem(position);
 
-//                String namePlayer = clickedItem.itmName;
-//                String nameAge = clickedItem.itmAge;
-//
-//                Bundle bundle = new Bundle();
-//                bundle.putString(P_NAME,namePlayer);
-//                bundle.putString(P_AGE,nameAge);
-//
-//                Intent intent = new Intent(PLayerList.this,PLayerProfile.class);
-//                intent.putExtras(bundle);
+                final String namePlayer = clickedItem.itmName;
+                final String nameAge = clickedItem.itmAge;
 
-                startActivityForResult(new Intent(PLayerList.this,PLayerProfile.class),1234);
+
+                Bundle bundle = new Bundle();
+                bundle.putString(P_NAME,namePlayer);
+                bundle.putString(P_AGE,nameAge);
+
+                Intent intent = new Intent(PLayerList.this,PLayerProfile.class);
+                intent.putExtras(bundle);
+
+                startActivityForResult(intent,1234);
             }
         });
 
