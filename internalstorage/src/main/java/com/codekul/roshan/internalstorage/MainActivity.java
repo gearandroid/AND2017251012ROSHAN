@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         while (true){
             int ch = fis.read();
-            if(fis.read() == -1) break;
+            if(ch == -1) break;
             else {
                 builder.append((char)ch);
             }
