@@ -59,6 +59,7 @@
             <option value="$PROJECT_DIR$/nestedlayoutexample2" />
             <option value="$PROJECT_DIR$/nestedlayoutsdemo" />
             <option value="$PROJECT_DIR$/relatedlayoutdemo" />
+            <option value="$PROJECT_DIR$/runtimepermission" />
             <option value="$PROJECT_DIR$/sharedpreferences" />
             <option value="$PROJECT_DIR$/statusbarnotification" />
             <option value="$PROJECT_DIR$/toast" />
