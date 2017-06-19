@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/compoundview4/compoundview4.iml" filepath="$PROJECT_DIR$/compoundview4/compoundview4.iml" />
       <module fileurl="file://$PROJECT_DIR$/compoundviewdemo1/compoundviewdemo1.iml" filepath="$PROJECT_DIR$/compoundviewdemo1/compoundviewdemo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/compoundviewdemo2/compoundviewdemo2.iml" filepath="$PROJECT_DIR$/compoundviewdemo2/compoundviewdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contactapp/contactapp.iml" filepath="$PROJECT_DIR$/contactapp/contactapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/customview4/customview4.iml" filepath="$PROJECT_DIR$/customview4/customview4.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviewdemo/customviewdemo.iml" filepath="$PROJECT_DIR$/customviewdemo/customviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviewexample/customviewexample.iml" filepath="$PROJECT_DIR$/customviewexample/customviewexample.iml" />
@@ -58,6 +59,7 @@
       <module fileurl="file://$PROJECT_DIR$/relatedlayoutdemo/relatedlayoutdemo.iml" filepath="$PROJECT_DIR$/relatedlayoutdemo/relatedlayoutdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtimepermission/runtimepermission.iml" filepath="$PROJECT_DIR$/runtimepermission/runtimepermission.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" filepath="$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlitedemocrud/sqlitedemocrud.iml" filepath="$PROJECT_DIR$/sqlitedemocrud/sqlitedemocrud.iml" />
       <module fileurl="file://$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" filepath="$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
       <module fileurl="file://$PROJECT_DIR$/uithreadviaasynctask/uithreadviaasynctask.iml" filepath="$PROJECT_DIR$/uithreadviaasynctask/uithreadviaasynctask.iml" />

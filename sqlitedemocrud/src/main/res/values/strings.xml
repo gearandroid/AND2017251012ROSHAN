@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SqliteDemoCRUD</string>
+    <string name="btnCreate">CREATE</string>
+    <string name="btnInsert">Insert</string>
+    <string name="onInsert">Insert</string>
+    <string name="onUpdate" />
+    <string name="onDelete">Delete</string>
+    <string name="btnQuery">Query</string>
+    <string name="btnInsertt">Insert</string>
+    <string name="btnDisplay">Display</string>
+</resources>

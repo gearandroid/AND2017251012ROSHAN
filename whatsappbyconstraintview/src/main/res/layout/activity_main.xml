@@ -126,7 +126,8 @@
             android:background="@android:color/transparent"
             android:inputType="textPersonName"
             android:hint="Type a message"
-            android:tint="#9e9e9e"/>
+            android:tint="#9e9e9e"
+            />
 
         <ImageView
             android:id="@+id/imageView7"
