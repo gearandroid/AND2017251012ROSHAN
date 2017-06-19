@@ -2,6 +2,7 @@ package gonotepad.contactapp;
 
 import android.content.ContentResolver;
 import android.database.Cursor;
+import android.net.Uri;
 import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,9 +19,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        readContacts();
+        //readContacts();
+        myData();
 
     }
+
 
     //Include permission in manifest
     //Also,after launching app, manually enable the permission
@@ -50,6 +53,33 @@ public class MainActivity extends AppCompatActivity {
         }
 
         ((ListView)findViewById(R.id.lstContactList)).setAdapter(adapter);
+
+    }
+
+    private void myData() {
+
+        //1:
+        List<String> contacts = new ArrayList<>();
+        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,contacts);
+
+        //2:
+        ContentResolver resolver = getContentResolver();
+        Cursor cursor = resolver.query(Uri.parse("content://com.codekul.read.PROJECT"),
+                new String[]{"id","name"},
+                null,
+                null,
+                null
+        );
+
+        if(cursor != null){
+            while (cursor.moveToNext()){
+                int id = cursor.getInt(cursor.getColumnIndex("id"));
+                String name = cursor.getString(cursor.getColumnIndex("name"));
+
+                contacts.add(id+ "\n" + name);
+            }
+        }
+
 
     }
 }
