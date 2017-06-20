@@ -62,6 +62,7 @@
             <option value="$PROJECT_DIR$/nestedlayoutsdemo" />
             <option value="$PROJECT_DIR$/relatedlayoutdemo" />
             <option value="$PROJECT_DIR$/runtimepermission" />
+            <option value="$PROJECT_DIR$/services" />
             <option value="$PROJECT_DIR$/sharedpreferences" />
             <option value="$PROJECT_DIR$/sqlitedemocrud" />
             <option value="$PROJECT_DIR$/statusbarnotification" />
