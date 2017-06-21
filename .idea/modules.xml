@@ -45,6 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/interactivitycommunication6/interactivitycommunication6.iml" filepath="$PROJECT_DIR$/interactivitycommunication6/interactivitycommunication6.iml" />
       <module fileurl="file://$PROJECT_DIR$/interactivitycommunicationeg/interactivitycommunicationeg.iml" filepath="$PROJECT_DIR$/interactivitycommunicationeg/interactivitycommunicationeg.iml" />
       <module fileurl="file://$PROJECT_DIR$/internalstorage/internalstorage.iml" filepath="$PROJECT_DIR$/internalstorage/internalstorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsonparsing/jsonparsing.iml" filepath="$PROJECT_DIR$/jsonparsing/jsonparsing.iml" />
       <module fileurl="file://$PROJECT_DIR$/libtest/libtest.iml" filepath="$PROJECT_DIR$/libtest/libtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/listviewexample1/listviewexample1.iml" filepath="$PROJECT_DIR$/listviewexample1/listviewexample1.iml" />
       <module fileurl="file://$PROJECT_DIR$/listviewexample2/listviewexample2.iml" filepath="$PROJECT_DIR$/listviewexample2/listviewexample2.iml" />

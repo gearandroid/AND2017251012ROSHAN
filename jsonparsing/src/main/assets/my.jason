@@ -1,0 +1,15 @@
+{
+	"codekul"	: "training Center",
+
+	"course"	: ["kotlin","android","java","angular2"],
+
+	"infra"		: { "furniture":true,
+			    "ac":true,
+			    "popularity":90 },
+
+	"arrObj"	:[
+					{"name":"jalebiBai"},
+					{"id":420}
+	 			 ]
+}
+
