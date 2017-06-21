@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         String lat = ((EditText)findViewById(R.id.edtLatt)).getText().toString();
         String lon = ((EditText)findViewById(R.id.edtLong)).getText().toString();
 
+        //Progress dialog here
         final ProgressDialog pd = ProgressDialog.show(MainActivity.this,"Weather","Fetching your data...");
 
         app.q().add(new StringRequest("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&mode=json&units=metric&cnt=7&appid=d7d115cbfae7711182c21b3ea3b2971c", new Response.Listener<String>() {
