@@ -22,10 +22,12 @@ public class App extends Application {
         super.onCreate();
 
         queue = Volley.newRequestQueue(this);
+
+        gson = new Gson();
     }
 
     public Gson gson(){
-        return  gson();
+        return  gson;
     }
 
     public RequestQueue q(){
